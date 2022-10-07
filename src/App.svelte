@@ -38,7 +38,7 @@ const mostrarToast = (texto , color) => {
     todos = [...todos, todo];
     console.log(todos);
     todo = { id: "", texto: "", estado: false };
-    mostrarToast('Se agrego correctament', 'bg-primary')
+    mostrarToast('Se agrego correctamente', 'bg-primary')
   };
 
   const delTodos = (id) => {
